@@ -1,37 +1,3 @@
-# Optiaplan prototype
-
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/taimis-projects/v0-optiaplan-prototype)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/7Tw5KUNf40R)
-
-## Overview
-
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
-
-## Deployment
-
-Your project is live at:
-
-**[https://vercel.com/taimis-projects/v0-optiaplan-prototype](https://vercel.com/taimis-projects/v0-optiaplan-prototype)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/7Tw5KUNf40R](https://v0.dev/chat/projects/7Tw5KUNf40R)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
-
-// Prompt maestro para GPT-4 o Claude
-// Objetivo: Generar un prototipo funcional de un calendario inteligente para gestionar actividades críticas ante cortes eléctricos en Santiago de Cuba, con datos mock y tipado definido.
-
 PROMPT:
 
 Eres un desarrollador fullstack experto. Tu tarea es construir un prototipo funcional del sistema **OptiaPlan** con las siguientes características:
