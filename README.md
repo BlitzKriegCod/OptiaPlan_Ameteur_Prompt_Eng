@@ -1,3 +1,162 @@
+# 📝 Especificaciones del Sistema: OptiaPlan
+
+## 🎯 Descripción General
+
+**OptiaPlan** es un prototipo funcional de un calendario inteligente diseñado para optimizar la planificación de actividades críticas ante cortes eléctricos frecuentes en Santiago de Cuba. Este sistema permite a los usuarios organizar sus tareas en función de predicciones simuladas de apagones y sugerencias de horario, todo utilizando datos locales (MockData).
+
+## 📌 Objetivo
+
+Desarrollar una aplicación de gestión de actividades que utilice una arquitectura moderna, datos mock, soporte de autenticación simple y una interfaz intuitiva con soporte para temas.
+
+## 💡 Funcionalidades
+
+* Gestión (CRUD) de actividades críticas.
+* Gestión (CRUD) de predicciones de cortes eléctricos.
+* Sugerencias de horario mock en base a predicciones.
+* Interfaz calendario básica.
+* Notificaciones locales simuladas.
+* Login mock (NextAuth).
+* Persistencia en localStorage.
+* Opción para exportar los datos.
+* Chatbot embebido en la interfaz.
+
+## ⚙️ Stack Tecnológico
+
+* Next.js 14 (App Router)
+* Tailwind CSS (light/dark mode)
+* Lucide Icons
+* Zustand o Context API
+* NextAuth (modo mock)
+* LLM configurable mediante OpenRouter u otros
+
+## 🧱 Estructura de Proyecto
+
+* `/app` – Rutas
+* `/components` – Componentes UI reutilizables
+* `/lib` – Funciones auxiliares
+* `/mock` – Datos mock simulados
+* `/public` – Recursos estáticos y logo
+* `/styles` – Tailwind config + globals
+* `/types` – Tipos TS de entidades
+
+## 📊 Tipos de Datos (Mock)
+
+* Usuario
+* Actividad Crítica
+* Corte Eléctrico
+* Sugerencia de Horario
+
+## 🔐 Autenticación
+
+* Login simulado
+* Autorización básica por rol ('admin', 'usuario')
+
+## 🤖 Chatbot Integrado
+
+* Actúa directamente sobre el sitio
+* Permite agregar tareas con lenguaje natural
+* Configurable vía OpenRouter u otros proveedores LLM
+
+## 📤 Exportación de Datos
+
+* Opción para exportar los datos en JSON desde la interfaz
+* Ideal para respaldos o integraciones futuras
+
+---
+
+# 🎨 Proceso Creativo
+
+## 📅 Planificación
+
+* Revisión del documento base
+* Recolección de requisitos y contexto
+* Diseño de entidades y funcionalidades
+
+## 🏗️ Diseño y Arquitectura
+
+* Enfoque modular y reutilizable
+* Datos simulados desde módulos TS (`/mock/*.ts`)
+* Layout responsive y tematizable
+
+## 🛠️ Herramientas Utilizadas
+
+* VS Code (IDE)
+* ChatGPT (Prompt engineering)
+* GitHub para versión final como GitHub Pages
+* Navegador con DevTools
+
+## 🧠 Prompts Aplicados
+
+* Generación del prototipo y funcionalidades
+* Refinamiento iterativo del diseño
+* Tipado explícito de entidades
+* Generación de instrucciones y estructura de proyecto
+
+## 🔁 Iteraciones
+
+* Iteración 1: Diseño base de arquitectura y UI
+* Iteración 2: MockData + CRUD funcional
+* Iteración 3: Chatbot y exportación de datos
+* Iteración 4: Ajustes visuales + UX
+
+## ⚠️ Dificultades
+
+* Emulación de predicciones sin IA real
+* Control de estado local sincronizado
+* Integración coherente de chatbot sobre tareas
+
+---
+
+# 📂 Entregables y Evaluación
+
+## 🧪 Artefactos
+
+* Prompt Maestro (Generación de Prototipo)
+* Tipos TypeScript
+* MockData JSON o módulos
+* Código del chatbot embebido
+
+## ✅ Requisitos Implementados
+
+* [x] CRUD completo de entidades principales
+* [x] Mock de predicción de cortes eléctricos
+* [x] Chatbot funcional en sitio
+* [x] Exportación de datos
+* [x] UI accesible y moderna
+
+## 💬 Experiencia
+
+El desarrollo fue iterativo, apoyado en prompts bien diseñados y pruebas constantes en el navegador. Se utilizó la IA de forma activa tanto para generación de código como en la interfaz del prototipo, integrando todo en un solo entorno de trabajo local.
+
+---
+
+# 📬 Entrega Final
+
+Enviar un correo a: **[yoeldcd@uci.cu](mailto:yoeldcd@uci.cu)**
+
+**Asunto:** `{TU_NOMBRE}+{FACULTAD}+OPTATIVA IA`
+
+**Contenido del correo:**
+
+* Informe de investigación (PDF)
+* Enlace al repositorio del prototipo (GitHub)
+* Capturas o enlaces a los chats de IA usados (o evidencia integrada al IDE)
+
+---
+
+# 🏁 Evaluación
+
+* Asistencia General
+* Calidad del Trabajo Investigativo
+* Calidad del Prototipo Desarrollado
+* Uso Inteligente de IA
+* Dominio del stack tecnológico
+* Participación grupal evidenciada en el chat
+
+---
+
+Este markdown sirve como documentación completa del sistema **OptiaPlan** y puede incluirse directamente en el repositorio del proyecto para acompañar la entrega oficial.
+
 PROMPT:
 
 Eres un desarrollador fullstack experto. Tu tarea es construir un prototipo funcional del sistema **OptiaPlan** con las siguientes características:
